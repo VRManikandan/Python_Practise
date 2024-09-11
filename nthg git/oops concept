@@ -1,0 +1,16 @@
+class nthg:
+    def __init__(self, mental,legend):
+        self.mental = mental
+        self.legend = legend
+    def psp(self):
+        return f"{self.mental} is no idea!"
+    def sps(self):
+        return f"{self.legend} says odisha!"
+ 
+my_nthg = nthg("mani", "ojha")
+
+print(my_nthg.mental)      
+print(my_nthg.legend)     
+print(my_nthg.psp()) 
+print(my_nthg.sps())
+

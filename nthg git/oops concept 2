@@ -1,0 +1,11 @@
+class one:
+    def __init__(self,a):
+       self.a = a
+       
+    def psp(self):
+        print(a**2)
+        
+square=one(9)
+square.psp()
+
+
